@@ -12,6 +12,7 @@ console.log("c===q",c===q);// returns false..... even if they are of diffrent ty
 
 //shows a popup with the given message
 alert("who dat boi");
+confirm("wanna exit ?!");
 //shows a popup with the given message with an input box
 prompt("say ur name");
 // this way we can store it and print it 

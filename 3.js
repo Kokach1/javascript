@@ -19,11 +19,15 @@ for(let key in student){
     console.log(key);
     console.log(student[key]);
 }
-
+// it is used to block programers from declareing variables without keyword like var
+// its a good practeace to use it and it helps privent errors
+"use strict";
 // string
 // strings can be created by
 let str1="the scouts";
 let str2='lockup the house';
+// if the string conains "then use ' and vise versa"
+// this privents computer from geting confused 
 var gh="ygasudvk f,jgcn,g";
 //prints the size duh
 console.log(gh.length);
