@@ -20,7 +20,14 @@ for(let key in student){
     console.log(student[key]);
 }
 
-//strings
+// string
+// strings can be created by
+let str1="the scouts";
+let str2='lockup the house';
 var gh="ygasudvk f,jgcn,g";
 //prints the size duh
 console.log(gh.length);
+// to acess by index
+console.log(gh[5]);
+
+// string literals

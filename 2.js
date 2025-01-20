@@ -1,11 +1,11 @@
 var a=5;
 var b =4;
-console.log("a^b=",a**b);// called exponeb=ntiate or something
+console.log("a^b=",a**b);// called exponentiate or something
 //== and === are not same 
 c=2;
 q="2";
-console.log("c==q",c==q);//converts the string to number and compairs 
-console.log("c===q",c===q);// returns false even if they are of diffrent types
+console.log("c==q",c==q);//returns true.....converts the string to number and compairs 
+console.log("c===q",c===q);// returns false..... even if they are of diffrent types
 
 
 //condition?trueOperation:falseOperation;

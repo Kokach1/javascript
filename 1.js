@@ -59,4 +59,5 @@ console.log(student["rollNo"]);
 student.rollNo= 96;
 console.log(student.rollNo);
 student["name"]="chanfira senan"
+// or by
 console.log(student.name);
