@@ -1,4 +1,0 @@
-test 6 taking place 
-: hopefully placed cound and name files out of project files 
-but this will probably reset the counter 
-if everthing works well ill delete this file as its not part of the main project
