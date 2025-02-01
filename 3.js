@@ -70,4 +70,4 @@ console.log(ig.replaceAll("lo",'y'));
 str.charAt(index)//to return a character at that index
 
 //testing my automation
-//test 1 
+//test 2

@@ -1,0 +1,2 @@
+test 3 taking place 
+: modified autoc.sh so that it`ll show still on same project if ur still on same file
