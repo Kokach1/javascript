@@ -1,2 +1,2 @@
-test 3 taking place 
-: modified autoc.sh so that it`ll show still on same project if ur still on same file
+test 4 taking place 
+:the count and name files where created and stored tin the project file so i think i fixed it 
