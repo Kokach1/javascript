@@ -68,3 +68,6 @@ let ig= "hellololol";
 console.log(ig.replace("lo",'y'));// it replaced first lo with y
 console.log(ig.replaceAll("lo",'y'));
 str.charAt(index)//to return a character at that index
+
+//testing my automation
+//test 1 
