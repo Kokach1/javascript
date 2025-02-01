@@ -1,0 +1,5 @@
+there was still some problems 
+and i included new features : now it will remember the count of each project individualy those data will be stored in git_auto
+so the counter will be 1 but i changed the value explicitly 
+so it now 8
+hopefully
