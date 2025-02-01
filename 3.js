@@ -35,3 +35,36 @@ console.log(gh.length);
 console.log(gh[5]);
 
 // string literals
+
+//bascial the use of ` insted of ' or " for example 
+let obj={
+    item : 'book',
+    price : 100,
+};
+console.log ("cost of book is ", obj.item,"is ",obj.price,"rupees");
+console.log (`cost of book is ${obj.item} is ${obj.price} rupees`);
+// so they are basicaly saying the first method is harder to do (but idk i felt the other way arond )
+
+//  js has the same escape characters as in c 
+//  when we print the size of a string whith escape characters the two characters (eg \ and n in \n) are treated as a single character
+let stri = "what \n the \n duck ";
+console.log(stri.length);// we expect 20 but the op is 18 as the escape characters are treated as a single character 
+
+//string methodes 
+
+//note that these methodes doesnot change the original to get the we have to store that and print or use it in the log methode 
+str.toUpperCase();
+str.toLowerCase();
+str.trim();//removes whitespaces
+str.slice();// used to print  specific parts of the string 
+//str.slice(start,end?) =>this prints from the start(including the start index) index upto end index(note: the value on the end index will not be printed )
+//end index is optional => prints the value from the start to the end of string
+let ni= 'abcdef';
+console.log(ni.slice(2,8));//the end size is grater than the size of the array but it wont show error but it will print asmuch as it can
+str1.concat(str2)//concats two strings
+res= str1+str2;// this is also concatination
+//str.replace(searchVal,newVal)//finds and replaces the first mathch 
+let ig= "hellololol";
+console.log(ig.replace("lo",'y'));// it replaced first lo with y
+console.log(ig.replaceAll("lo",'y'));
+str.charAt(index)//to return a character at that index
