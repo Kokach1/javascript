@@ -67,7 +67,7 @@ res= str1+str2;// this is also concatination
 let ig= "hellololol";
 console.log(ig.replace("lo",'y'));// it replaced first lo with y
 console.log(ig.replaceAll("lo",'y'));
-str.charAt(index)//to return a character at that index
-
-//testing my automation
-//test 2
+// str.charAt(index)//to return a character at that index
+let fu= 'lucid dreams';
+console.log(str[3]);
+console.log(str[999]);//since that index is not defined it shows undefined  
