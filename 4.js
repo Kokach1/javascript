@@ -4,3 +4,8 @@ console.log(mark);// op will be the array along with its size , which can be exp
 console.log(mark.length);//length property of an array 
 let chararray = ["aiurghl", "8weuhoyrg", "rugihe"];
 console.log(chararray);
+console.log(mark[3]);//to print values by index
+console.log(mark[99])// undefined since the value of that undex was never declared
+//note: stings are not immutable ie its value can be changed whithout creating a new array 
+mark[3]=9;
+console.log(mark);
