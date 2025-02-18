@@ -7,11 +7,26 @@ console.log(chararray);
 console.log(mark[3]);//to print values by index
 console.log(mark[99])// undefined since the value of that undex was never declared
 //note: stings are not immutable ie its value can be changed whithout creating a new array 
-mark[3]=9;// the values can be changed like this 
+mark[3] = 9;// the values can be changed like this 
 console.log(mark);
 
 //"for of " loop in array
-let niglect=["christin","nishanth","koka","abram"];
-for (let pm of niglect){
+let niglect = ["christin", "nishanth", "koka", "abram"];
+for (let pm of niglect) {
     console.log(pm);
 }
+
+//array methodes : push(),pop(),toString(),concat(),unshift(),shift()
+niglect.push("arjun");//adds  item to the end of the array 
+console.log(niglect);
+console.log("deleted item is", niglect.pop());//this deleates and returns the value of the last item in the array
+console.log(niglect);
+console.log(niglect.toString());//this converts array to string 
+let pm =['annu','amrutha'];
+console.log(niglect.concat(pm));//used to concat two or more arrays (muliple arrays can be concatnated by using , )
+ 
+
+
+
+
+
