@@ -7,5 +7,11 @@ console.log(chararray);
 console.log(mark[3]);//to print values by index
 console.log(mark[99])// undefined since the value of that undex was never declared
 //note: stings are not immutable ie its value can be changed whithout creating a new array 
-mark[3]=9;
+mark[3]=9;// the values can be changed like this 
 console.log(mark);
+
+//"for of " loop in array
+let niglect=["christin","nishanth","koka","abram"];
+for (let pm of niglect){
+    console.log(pm);
+}
