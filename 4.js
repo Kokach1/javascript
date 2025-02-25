@@ -24,9 +24,20 @@ console.log(niglect);
 console.log(niglect.toString());//this converts array to string 
 let pm =['annu','amrutha'];
 console.log(niglect.concat(pm));//used to concat two or more arrays (muliple arrays can be concatnated by using , )
+//note: concat() doesnt create updates any array it just returns a new one
+pm.unshift("emil","go killa");// insert in begining 
+console.log(pm);
+console.log("deleted from front item is",pm.shift());// delete from begining
+// slice(strtindex,endinsex);note:it doesnt change the original array
+console.log(niglect.slice(1,3));//note:the value of ending index wont be printed
+console.log(niglect.slice(1));//this will print all the vlues from the starting index
+console.log(niglect.slice());//this prints all the values in the arrayz
  
 
-
+// splice(strtindex,delCount,newElements)
+let arr =[1,2,3,4,5,6,7,8];
+arr.splice (2,3,21,34,54);//this will delete vlaues at intex 2,3 then adds the given array to that spot then the remining if the original array
+console.log(arr);
 
 
 

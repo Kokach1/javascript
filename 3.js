@@ -64,7 +64,7 @@ console.log(ni.slice(2,8));//the end size is grater than the size of the array b
 str1.concat(str2)//concats two strings
 res= str1+str2;// this is also concatination
 //str.replace(searchVal,newVal)//finds and replaces the first mathch 
-let ig= "hellololol";
+let ig = "hellololol";
 console.log(ig.replace("lo",'y'));// it replaced first lo with y
 console.log(ig.replaceAll("lo",'y'));
 // str.charAt(index)//to return a character at that index
