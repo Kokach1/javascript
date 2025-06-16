@@ -10,7 +10,7 @@ console.log("c===q",c===q);// returns false..... even if they are of diffrent ty
 
 //condition?trueOperation:falseOperation;
 
-//shows a popup with the given message
+//shows a popup with the given message, with ok button 
 alert("who dat boi");
 confirm("wanna exit ?!");//shows a popup with ok and cancel option 
 //shows a popup with the given message with an input box

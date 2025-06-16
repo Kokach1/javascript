@@ -3,7 +3,7 @@ var str= "vellam venam";
 for(let i of str){
     console.log("i=",i);
 }//used for string traversal
-
+//repeated charaters (eg 'l') will be denoted as howmany time its printed and dont get printed multiple times 
 //for-in loop
 var student ={
     name:"travis scot",
@@ -21,7 +21,10 @@ for(let key in student){
 }
 // it is used to block programers from declareing variables without keyword like var
 // its a good practeace to use it and it helps privent errors
+x=4;
 "use strict";
+x = 5;
+console.log(x);
 // string
 // strings can be created by
 let str1="the scouts";
