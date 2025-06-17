@@ -36,7 +36,8 @@ console.log(niglect.slice());//this prints all the values in the arrayz
 
 // splice(strtindex,delCount,newElements)
 let arr =[1,2,3,4,5,6,7,8];//note: the original array is replaced
-arr.splice (2,3,21,34,54);//this will delete vlaues from intex 2 and delete the next 3 values then adds the given array to that spot then the remining of the original array is returned
+console.log(arr);
+arr.splice (2,3,21,34,54,69);//this will delete vlaues from intex 2 and delete the next 3 values then adds the given array to that spot then the remining of the original array is returned
 console.log(arr);
 //splice to add elements only not to delete them
 arr.splice(4,0,696,9969);//this only adds elements at the given location
