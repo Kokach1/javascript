@@ -45,6 +45,3 @@ console.log(arr);
 //splice to delete item
 arr.splice(1,2);
 console.log(arr);
-
-
-
