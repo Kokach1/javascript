@@ -66,3 +66,15 @@ arr.forEach(function p1(varr){
 arr.forEach((val)=>{
     console.log(val**2);
 })
+//note:forEach can pass 3 values ie (item,index,the whole array)
+arr.forEach((val,idx,ary)=>{
+    console.log(val,idx,ary);
+})
+//note: forEvery only works for array not string
+//note:higher order function/methods : functions which uses a function as parameter or returns a function eg:forEach
+
+let ar=[43,547,2,45,7,567,345624,3421,567,123,434];
+function pow(ip){
+    console.log(ip**ip);
+}
+ar.forEach(pow);
