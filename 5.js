@@ -76,5 +76,11 @@ arr.forEach((val,idx,ary)=>{
 let ar=[43,547,2,45,7,567,345624,3421,567,123,434];
 function pow(ip){
     console.log(ip**ip);
-}
+};
 ar.forEach(pow);
+
+
+let newwe=ar.forEach(pow);
+console.log(newwe);
+
+//map methode its simlear to forEach but it creates a new array in that process
