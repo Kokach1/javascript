@@ -80,31 +80,45 @@ let newwe = ar.forEach(pow);
 console.log(newwe);
 
 //map methode its simlear to forEach but it creates a new  array in that process
-//it also pass 3 values ie (item,index,the whole array) 
+//it also pass 3 values ie (item,index,the whole array)
 
-let huh =[54,67,98,8,443];
+let huh = [54, 67, 98, 8, 443];
 
-huh.map((val)=>{
+huh.map((val) => {
   console.log(val);
-})//this created a new array ie the original one is not modified but the new one is not stored so its not displayed
+}); //this created a new array ie the original one is not modified but the new one is not stored so its not displayed
 
-let newar = huh.map((val)=>{
-  return val*val;
-})//now its stored in a new array 
+let newar = huh.map((val) => {
+  return val * val;
+}); //now its stored in a new array
 
-function ner(vsal){
-  return vsal * vsal *vsal;
+function ner(vsal) {
+  return vsal * vsal * vsal;
 }
 const jk = huh.map(ner);
-console.log(jk);//this is how map is used to manipulate a string using existing funtion
+console.log(jk); //this is how map is used to manipulate a string using existing funtion
 
-
-//filter methode :creates a new array of elements that give true for a condition/filter 
-let num=[4.2,6,37,432,998,4324];
+//filter methode :creates a new array of elements that give true for a condition/filter
+let num = [4.2, 6, 37, 432, 998, 4324];
 // let even = num.filter(val){
 //   return val%2==0;
 // }
-let isEven = num.filter(function(vr) {
+let isEven = num.filter(function (vr) {
   return vr % 2 == 0;
 });
 console.log(isEven);
+
+//reduce methode: performs some operations & reduces the og array into a single value and returns that single vale
+
+var arra = [5, 6, 7, 3, 7, 9, 1];
+var lol = arra.reduce(function (result, current) {
+  return result + current;
+});//at first result is the first vallue and current is the 2nd thr
+console.log(lol);
+
+//arrow fun of it 
+ var arra2 =[45,64,234];
+ const op = arra2.reduce((res,curr)=>{
+  return res+curr;
+ });
+ console.log(op);
