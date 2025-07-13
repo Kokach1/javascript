@@ -113,12 +113,12 @@ console.log(isEven);
 var arra = [5, 6, 7, 3, 7, 9, 1];
 var lol = arra.reduce(function (result, current) {
   return result + current;
-});//at first result is the first vallue and current is the 2nd thr
+});//at first result is the first vallue and current is the 2nd then the op of the operation is stored in result and current moves forward 
 console.log(lol);
 
 //arrow fun of it 
- var arra2 =[45,64,234];
+ var arra2 =[45,64,234,11];
  const op = arra2.reduce((res,curr)=>{
-  return res+curr;
+  return res > curr? res:curr;
  });
- console.log(op);
+ console.log("largest num in the string is",op);
