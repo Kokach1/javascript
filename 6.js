@@ -13,4 +13,9 @@
  console.dir(k);   //prints the propertey of the element with that id
 // id is shown up in console with '#'
 let l= document.getElementsByClassName("domm")
-console.dir(l);
+console.dir(l);// returns htmlcollection which is like an array of elements in the same class
+let m = document.getElementsByTagName("h1" )
+console.dir(m);// this also returns HTMLcollection 
+// query selector can be used to return elemnts using id,class or tag it sorts the type automaticaly but returns the first match found
+let n = document.querySelector("dom")
+console.dir(n)
